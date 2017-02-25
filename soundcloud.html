@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jukebox w/Soundcloud</title>
+	<link rel="stylesheet" type="text/css" href="soundcloud.css">
+</head>
+<body>
+
+	<h1 id="header">Press Play!</h1>
+
+	<audio class="audio" src="">
+
+	</audio>
+
+
+	<div class="playButton">
+		<img id="playMusic" src="https://image.freepik.com/free-icon/play-button_318-42541.jpg">
+	</div>
+
+	<div class="pauseButton">
+		<img id="pauseMusic" src="https://image.freepik.com/free-icon/pause-button-outline_318-40569.jpg">
+	</div>
+
+	<div class="nextButton">
+		<img id="nextMusic" src="https://image.freepik.com/free-icon/next-button_318-42554.jpg">
+	</div>
+
+	<div class="title"></div>
+	<div class="genre"></div>
+	<div class="description"></div>
+
+
+	<label for="song-url">Type in song:</label>
+	<input type="text" name="song-url" id="song-url" placeholder="song please..."/>
+	<button type="button" id="songIdEntryButton">Search Song</button>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="soundcloud.js"></script>
+	<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+
+</body>
+</html>

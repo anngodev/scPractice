@@ -1,0 +1,21 @@
+/*.pauseButton {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+}*/
+
+#playMusic {
+	width: 100px;
+	height: 100px;
+
+}
+
+#pauseMusic {
+	width: 100px;
+	height: 100px;
+}
+
+#nextMusic {
+	width: 100px;
+	height: 100px;
+}
